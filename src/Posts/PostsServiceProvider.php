@@ -6,6 +6,8 @@
 
 namespace Onderdelen\Posts;
 
+use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 
 class PostsServiceProvider extends ServiceProvider
