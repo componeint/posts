@@ -4,7 +4,7 @@
  * Created by anonymous on 28/02/16 8:43.
  */
 
-namespace Posts;
+namespace Onderdelen\Posts;
 
 use Illuminate\Support\ServiceProvider;
 
