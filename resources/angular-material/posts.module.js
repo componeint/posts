@@ -11,7 +11,11 @@
 
             /* Shared */
             'appFoundation',
-            'widgets'
+            'widgets',
+
+            /* components */
+            'seneschal',
+            'dashboard'
 
         ]);
 
