@@ -1,4 +1,10 @@
-<?php namespace Posts;
+<?php
+/**
+ * PostsServiceProvider.php
+ * Created by anonymous on 28/02/16 8:43.
+ */
+
+namespace Posts;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -29,7 +35,9 @@ class PostsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->register(\Onderdelen\AppFoundation\AppFoundationServiceProvider::class);
+        $this->app->register(\Onderdelen\Seneschal\SeneschalServiceProvider::class);
+        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
     }
 
     /**
