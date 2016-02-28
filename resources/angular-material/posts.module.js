@@ -14,7 +14,6 @@
             'widgets',
 
             /* components */
-            'seneschal',
             'dashboard'
 
         ]);
