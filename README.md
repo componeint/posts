@@ -17,14 +17,14 @@ PSRs you support to avoid any confusion with users and contributors.
 Via Composer
 
 ``` bash
-$ composer require onderdelen/posts
+$ composer require componeint/posts
 ```
 
 ## Usage
 
 ``` php
-$posts = new Onderdelen\Posts();
-echo $posts->echoPhrase('Hello, Onderdelen!');
+$posts = new Componeint\Posts();
+echo $posts->echoPhrase('Hello, Componeint!');
 ```
 
 ## Change log
@@ -54,17 +54,17 @@ If you discover any security related issues, please email 50c5ac69@opayq.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/onderdelen/posts.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/componeint/posts.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/onderdelen/posts/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/onderdelen/posts.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/onderdelen/posts.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/onderdelen/posts.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/componeint/posts/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/componeint/posts.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/componeint/posts.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/componeint/posts.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/onderdelen/posts
-[link-travis]: https://travis-ci.org/onderdelen/posts
-[link-scrutinizer]: https://scrutinizer-ci.com/g/onderdelen/posts/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/onderdelen/posts
-[link-downloads]: https://packagist.org/packages/onderdelen/posts
-[link-author]: https://github.com/onderdelen
+[link-packagist]: https://packagist.org/packages/componeint/posts
+[link-travis]: https://travis-ci.org/componeint/posts
+[link-scrutinizer]: https://scrutinizer-ci.com/g/componeint/posts/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/componeint/posts
+[link-downloads]: https://packagist.org/packages/componeint/posts
+[link-author]: https://github.com/componeint
 [link-contributors]: ../../contributors

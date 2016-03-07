@@ -1,17 +1,17 @@
 {
-  "name"             : "onderdelen/posts",
+  "name"             : "componeint/posts",
   "description"      : "Description Posts",
   "keywords"         : [
-    "onderdelen",
+    "componeint",
     "posts"
   ],
-  "homepage"         : "https://github.com/onderdelen/posts",
+  "homepage"         : "https://github.com/componeint/posts",
   "license"          : "MIT",
   "authors"          : [
     {
       "name"    : "anonymoussc",
       "email"   : "50c5ac69@opayq.com",
-      "homepage": "https://github.com/onderdelen",
+      "homepage": "https://github.com/componeint",
       "role"    : "Developer"
     }
   ],
@@ -33,12 +33,12 @@
       "tests"
     ],
     "psr-4"   : {
-      "Onderdelen\\Posts\\": "src"
+      "Componeint\\Posts\\": "src"
     }
   },
   "autoload-dev"     : {
     "psr-4": {
-      "Onderdelen\\Posts\\Test\\": "tests"
+      "Componeint\\Posts\\Test\\": "tests"
     }
   },
   "minimum-stability": "stable"

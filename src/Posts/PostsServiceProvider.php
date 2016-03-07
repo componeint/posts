@@ -4,7 +4,7 @@
  * Created by anonymous on 28/02/16 8:43.
  */
 
-namespace Onderdelen\Posts;
+namespace Componeint\Posts;
 
 use ReflectionClass;
 use Illuminate\Foundation\AliasLoader;
@@ -37,9 +37,9 @@ class PostsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Onderdelen\AppFoundation\AppFoundationServiceProvider::class);
-        $this->app->register(\Onderdelen\Seneschal\SeneschalServiceProvider::class);
-        $this->app->register(\Onderdelen\Dashboard\DashboardServiceProvider::class);
+        $this->app->register(\Componeint\AppFoundation\AppFoundationServiceProvider::class);
+        $this->app->register(\Componeint\Seneschal\SeneschalServiceProvider::class);
+        $this->app->register(\Componeint\Dashboard\DashboardServiceProvider::class);
     }
 
     /**
