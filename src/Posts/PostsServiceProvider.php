@@ -37,9 +37,7 @@ class PostsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->register(\Componeint\AppFoundation\AppFoundationServiceProvider::class);
-        $this->app->register(\Componeint\Seneschal\SeneschalServiceProvider::class);
-        $this->app->register(\Componeint\Dashboard\DashboardServiceProvider::class);
+        //
     }
 
     /**
