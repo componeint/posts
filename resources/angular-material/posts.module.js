@@ -8,14 +8,9 @@
 
     angular
         .module('posts', [
-
             /* Shared */
-            'appFoundation',
-            'widgets',
 
-            /* components */
-            'seneschal',
-            'dashboard'
+            /* Components */
 
         ]);
 
