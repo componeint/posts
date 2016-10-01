@@ -1,7 +1,7 @@
 <?php
 /**
  * PostsServiceProvider.php
- * Created by anonymous on 28/02/16 8:43.
+ * Created by @anonymoussc on 28/02/16 8:43.
  */
 
 namespace Componeint\Posts;
@@ -12,7 +12,6 @@ use Illuminate\Support\ServiceProvider;
 
 class PostsServiceProvider extends ServiceProvider
 {
-
     /**
      * Indicates if loading of the provider is deferred.
      *
@@ -27,7 +26,12 @@ class PostsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $componenentsFileName = with(new ReflectionClass('\Componeint\Posts\PostsServiceProvider'))->getFileName();
+        $componenentsPath     = dirname($componenentsFileName);
 
+        $this->loadViewsFrom($componenentsPath . '/../../resources/views', 'posts');
+
+        // include $componenentsPath . '/../routes.php';
     }
 
     /**
@@ -49,5 +53,4 @@ class PostsServiceProvider extends ServiceProvider
     {
         return [];
     }
-
 }
